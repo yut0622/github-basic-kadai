@@ -1,0 +1,26 @@
+    ディレクトリ: C:\Users\81801\OneDrive\デスクトップ
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/09/15      0:41                git_charenge    
+
+
+PS C:\Users\81801\OneDrive\デスクトップ> cd git_charenge
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git init
+Initialized empty Git repository in C:/Users/81801/OneDrive/デスク トップ/git_charenge/.git/
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> echo "hello,eorld!" > hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git add hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git commit -m "hello_world.txt を追加"
+[main (root-commit) b7b4217] hello_world.txt を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> echo "こんに ちは、世界！" >> hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git add hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git commit -m "日本語翻訳を追記"
+[main e501828] 日本語翻訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> git log --oneline
+e501828 (HEAD -> main) 日本語翻訳を追記
+b7b4217 hello_world.txt を追加
+PS C:\Users\81801\OneDrive\デスクトップ\git_charenge> 
