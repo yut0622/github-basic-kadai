@@ -1,0 +1,34 @@
+ PS C:\Users\81801\OneDrive\デスクトップ> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\81801\OneDri
+    ve\デスクトップ
+
+
+Mode                 LastWriteTime Leng
+                                     th
+----                 ------------- ----
+d-----        2025/09/15      1:04
+
+
+PS C:\Users\81801\OneDrive\デスクトップ> cd git_challenge
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/81801/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> echo "Hello,worlo!" > hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git add hello_world.txt   
+PS C:\Users\818  \OneDrive\デスクトップ\git_challenge>
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) efb1333] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を 追記"
+[main 59fae0b] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git log --noeline
+fatal: unrecognized argument: --noeline
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> git log --oneline
+59fae0b (HEAD -> main) 日本語訳を追記
+efb1333 hello_world.txtを追加
+PS C:\Users\81801\OneDrive\デスクトップ\git_challenge> 
